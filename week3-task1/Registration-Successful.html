@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Registration Successful</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif, height: 50%;
+      width: 50%;
+      margin: auto;
+      margin-top: 50px;
+      background-image: url("mypics.jpeg");
+      color: white;
+
+    }
+
+    .container1 {
+      border: 3px solid #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      line-height: 30px;
+      background: skyblue;
+      height: 50%;
+      align-items: center;
+
+
+    }
+
+    input[type=email],
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+
+
+
+    button {
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    .cancelbtn {
+      width: auto;
+      padding: 10px 10px;
+      background-color: black;
+      padding: 12px 35px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+
+    }
+
+    .imgcontainer {
+      text-align: center;
+      margin: 14px 0 12px 0;
+
+    }
+
+
+    .container {
+      padding: 10px;
+      width: 50%;
+    }
+
+    label.psw {
+      float: right;
+      padding-top: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container1">
+    <h2>Login Form</h2>
+
+
+    <div class="container">
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" autocomplete="email" required>
+      <br>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" autocomplete="current-passwordssword" required>
+      <br>
+    </div>
+    <div>
+      <button class="button"> <b>Login.</b></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+
+    </div>
+
+
+
+    <div class="container" id="button">
+      <a href="index.html" />
+      <button type="button" class="cancelbtn">Cancel</button>
+      </a>
+      <label class="psw"> <b>Forgot password</b></label>
+    </div>
+  </div>
+</body>
+
+</html>
